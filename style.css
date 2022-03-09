@@ -7,7 +7,7 @@
 }
 
 .card_container{
-    width: c alc(100% - 244px);
+    /*width: calc(100% - 244px);*/
     margin: 0 auto;
 }
 
