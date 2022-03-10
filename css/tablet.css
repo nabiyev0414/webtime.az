@@ -7,7 +7,7 @@
     font-size: 3.6vw;
 }
 
-#about-course  #container{
+#container{
     width: 55%;
     padding: 3em  4em  3em  4em;
     border-radius: 2vw;
@@ -19,7 +19,7 @@
     font-size: 1.2vw;
 }
 
-#container  #image-icon{
+#image-icon{
     margin-top: 4vh;
 }
 

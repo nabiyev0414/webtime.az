@@ -25,7 +25,7 @@ url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0
     font-weight: 700;
 }
 
-#about-course  #container{
+#container{
     background-color: #fff;
     width: 54%;
     margin-top: 6.2em;
@@ -43,7 +43,7 @@ url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0
     line-height: 1.45em;
 }
 
-#container  #image-icon{
+#image-icon{
     display: flex;
     flex-direction: row;
     margin-top: 4em;
@@ -54,7 +54,7 @@ url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0
     margin-left: -2em;
 }
 
-#image-icon  #facebook{
+#facebook{
     display: flex;
     flex-direction: column;
     margin-left: 1.2em;
