@@ -1,0 +1,33 @@
+#about-course{
+    min-height: 452px;
+    padding: 7vh  0  12vh  7vw;
+}
+
+#about-course  h3{
+    font-size: 3.6vw;
+}
+
+#about-course  #container{
+    width: 55%;
+    padding: 3em  4em  3em  4em;
+    border-radius: 2vw;
+    margin-top: 6.2vh;
+    min-width: 458px;
+}
+
+#para p{
+    font-size: 1.2vw;
+}
+
+#container  #image-icon{
+    margin-top: 4vh;
+}
+
+#facebook  h6{
+    font-size: 1.7vw;
+    margin-top: 3.8vh;
+}
+
+#facebook  a{
+    margin-top: 1.2vw;
+}
