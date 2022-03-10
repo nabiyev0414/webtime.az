@@ -2,7 +2,7 @@
     padding: 7vh  0  9vh  0;
 }
 
-#about-course  #wrapper{
+#wrapper{
     width: 82%;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-#about-course  #container{
+#container{
     display: block;
     width: 100%;
     padding: 3em  4em  3em  4em;
@@ -33,7 +33,7 @@
     font-size: 2.7vw;
 }
 
-#container  #image-icon{
+#image-icon{
     margin-top: 3vw;
     margin-left: 8pt;
 }
