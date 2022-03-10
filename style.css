@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.container{
+    width: calc(100% - 244px);
+    margin: 0 auto;
+}
+body{
+    width: 1400px;
+}
+.course h1{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+}
+.course p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+.flex-image{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right img{
+    width: 314px;
+    height: 315px;
+    margin-top: 50px;
+}
+.section{
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.left-1 img{
+    width: 232px;
+    height: 203px;
+}
+.right-1{
+    display: flex;
+   /* margin-left: 132px; */
+   width: 70%;
+   justify-content: space-between;
+}
+.text-1 h4{   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+    width: 150px;
+    height: 39px;
+}
+.text-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+    width: 150px;
+    height: 39px;
+}
+.format{
+    margin-top: 150px;
+}
+.format h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+}
+.section-format{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.text-2 h4{
+    width: 250px;
+    height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #1E4681;
+}
+.text-2 p{
+    width: 260px;
+    height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+.ul h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+    margin-top: 200px;
+}
+.ul ul li{
+    width: 660px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    .container{
+        width: calc(100% - 144px);
+        margin: 0 auto;
+    }
+    .course h1{
+    font-size: 60px;
+    }
+    .course p{
+    width: 420px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Roboto;
+    }
+    .right img{
+        width: 250px;
+        height: 250px;
+    }
+    .right{
+        width: 25%;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .container{
+        width: calc(100% - 150px);
+        margin: 0 auto;
+    }
+    .course h1{
+        font-size: 65px;
+        font-weight: 900;
+    }
+    .course p{
+        font-family: Roboto;
+        width: 1200px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 150%;
+        /* or 18px */
+        color: #000000;
+}
+    .flex-image{
+        display: block;
+    }
+    .right{
+        margin-left: 200px;
+    }
+    .right img{
+        width: 450px;
+        height: 450px;
+    }
+    .left-1{
+        display: none;
+    }
+    .right-1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .text-1 h4{
+        font-size: 45px;
+        width: 350px;
+    }
+    .text-1 p{
+        font-size: 40px;
+        width: 420px;
+    }
+    .text-1{
+        margin-top: 60px;
+    }
+    .format h1{
+        font-size: 65px;
+        font-weight: 900;
+    }
+    .section-format{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .text-2 h4{
+        font-size: 45px;
+        width: 380px;
+    }
+    .text-2 p{
+        font-size: 40px;
+        width: 420px;
+    }
+    .ul h1{
+        font-size: 65px;
+        font-weight: 900;
+    }
+    .ul ul li{
+        font-size: 40px;
+        width: 1000px;
+    }
+    #text2{
+        margin-top: 170px;
+    }
+    .ul{
+        margin-top: 160px;
+    }
+
+
+
+
+
+}
