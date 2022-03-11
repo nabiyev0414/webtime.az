@@ -1,0 +1,122 @@
+.bottom{
+    padding-bottom: 2.8vh;
+}
+
+
+#black{
+    padding-bottom: 13.5vh;
+}
+
+.end-left{
+    position: relative;
+}
+
+h2{
+    width: 65%;
+    font-size: 6.5vw;
+    line-height: 1em;
+    padding-bottom: 2vh;
+}
+
+.middle  .first  p{
+    font-size: 3vw;
+}
+
+.middle .second p{
+    font-size: 8.2vw;
+    margin-bottom: 2vh;
+}
+
+.bottom{
+    width: 90%;
+}
+
+.bottom  h6{
+    font-size: 3vw;
+}
+
+.bottom  p{
+    font-size: 1.5vw;
+    line-height: 1em;
+}
+
+.left{
+    width: 48%;
+}
+
+.right{
+    width: 48%;
+    margin-left: 6vw;
+}
+
+.left p, .right p{
+    font-size: 2.5vw;
+}
+
+#green{
+    padding-top: 12%;
+    padding-bottom: 14%;
+}
+
+.endd{
+    flex-direction: column;
+}
+
+.logo #first{
+    width: 33%;
+    margin-top: 3.5vh;
+    margin-bottom: 1.6vh;
+}
+
+.copy{
+    position: absolute;
+    margin-top: 19vh;
+    /* margin-top: 21.5vh; */
+}
+
+.copy  p{
+    font-size: 2.6vw;
+}
+
+.icons  img:first-child{
+    width: 5vw;
+    padding-right: 3.5%;
+}
+
+.icons img:nth-child(2){
+    width: 5vw;
+    padding-right: 3.5%;
+}
+
+.icons img:nth-child(3){
+    width: 5.5vw;
+    padding-right: 5%;
+}
+
+.icons img:nth-child(4){
+    width: 5vw;
+    padding-right: 3.5%;
+}
+
+.icons{
+    margin-bottom: 1vh;
+}
+
+.right-top p, .right-bottom p{
+    font-size: 3vw;
+    padding-left: 2vw;
+}
+
+.right-top img, .right-bottom img{
+    width: 4%;
+}
+
+.right-top  img{
+    height: 3%;
+    margin-top: -0.5%;
+}
+
+.right-bottom img{
+    margin-top: 0.5vh;
+    height: 2vw;
+}

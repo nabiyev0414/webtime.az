@@ -1,0 +1,39 @@
+h2{
+    font-size: 32px;
+}
+
+.middle  .first  p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.middle .second p{
+    font-size: 46px;
+}
+
+.middle  .first  p{
+    font-size: 1.4em;
+}
+
+.bottom  h6{
+    font-size: 1.4em;
+}
+
+.bottom  p{
+    font-size: 1.1vw;
+    line-height: 1em;
+}
+
+.left{
+    width: 23%;
+}
+
+.right{
+    width: 23%;
+    margin-left: 4.5%;
+}
+
+#green{
+    padding-top: 5%;
+    padding-bottom: 12%;
+}
