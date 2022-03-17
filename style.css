@@ -271,15 +271,15 @@ ul li {
 .flex-image{
     display: flex;
 }
-.left{
+.leftone{
     width: 50%;
 }
-.right{
+.rightone{
     width: 50%;
     display: flex;
     justify-content: flex-end;
 }
-.right img{
+.rightone img{
     width: 314px;
     height: 315px;
     margin-top: 50px;
