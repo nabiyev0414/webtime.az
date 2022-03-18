@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-size: 16px;
 }
-/* Cards Start */
+/* Cards Baslangic */
 .card_container{
     width: calc(100% - 244px);
     margin: 0 auto;
@@ -28,6 +28,11 @@
     font-weight: bold;
     font-size: 2rem;
     line-height: 130%;
+    float: left;
+}
+.card-title h1{
+    text-align: center;
+    justify-content: center;
 }
 .info{
     font-family: Roboto;
@@ -39,7 +44,7 @@
 li.card{
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
+    border-radius: 30px;
     width: 30%;
     height: 320px; 
 }
@@ -84,6 +89,391 @@ ul li {
     }
        
 }
+/* Cards Sonu */
+
+/* Course Baslangic */
+.container{
+    width: calc(100% - 244px);
+    margin: 0 auto;
+}
+
+.course h1{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+}
+.course p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+.flex-image{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right img{
+    width: 314px;
+    height: 315px;
+    margin-top: 50px;
+}
+.section{
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.left-1 img{
+    width: 232px;
+    height: 203px;
+}
+.right-1{
+    display: flex;
+   /* margin-left: 132px; */
+   width: 70%;
+   justify-content: space-between;
+}
+.text-1 h4{   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+    width: 150px;
+    height: 39px;
+}
+.text-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+    width: 150px;
+    height: 39px;
+}
+.format{
+    margin-top: 150px;
+}
+.format h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+}
+.section-format{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.text-2 h4{
+    width: 250px;
+    height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #1E4681;
+}
+.text-2 p{
+    width: 260px;
+    height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+.ul h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+    margin-top: 200px;
+}
+.ul ul li{
+    width: 660px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+/* Course Sonu */
+/*4cu hisse baslangici*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about-course{
+    font-size: 10px;
+    background-color: #EFEFEF;
+    padding: 7em  0em  11em  13em;
+}
+
+#about-course  h3{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 5.5em;
+    font-weight: 700;
+}
+
+#container{
+    background-color: #fff;
+    width: 54%;
+    margin-top: 6.2em;
+    border-radius: 3em;
+    padding: 4em  4em  3em  4em;
+    box-shadow: 1px 1px 20px 0px #00000040;
+}
+
+#para p{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.45em;
+}
+
+#image-icon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+}
+
+#image-icon  img{
+    width: 100%;
+    margin-left: -2em;
+}
+
+#facebook{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2em;
+}
+
+#facebook  h6{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+
+#facebook  a{
+    display: block;
+    margin-top: 2.5em;
+    margin-left: 2em;
+}
+
+#facebook  img{
+    width: 6%;
+}
+
+#facebook img:hover{
+    opacity: 50%;
+}
+/*4cu hissenin sonu*/
+/*Bottom hissesi */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+#green{
+    padding-top: 1.5%;
+    padding-bottom: 13%;
+    background-color:#9DC9C8 ;
+    color: black;
+}
+
+.end{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.end h2, .end .middle, .end .bottom{
+    margin-top: 5%;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+.middle  .first  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: -1%;
+}
+
+.middle  .second  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8em;
+}
+
+.bottom{
+    display: flex;
+}
+
+.bottom  h6{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 4%;
+}
+
+.bottom  p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left{
+    width: 23%;
+}
+
+.right{
+    width: 23%;
+    margin-left: 4.5%;
+}
+
+#black{
+    background-color: black;
+}
+
+.endd{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    width: 83%;
+    margin: 0 auto;
+}
+
+.end-left{
+    width: 50%;
+}
+
+.end-left{
+    width: 50%;
+}
+
+.logo #first{
+    width: 18%;
+    margin-top: 5vh;
+    margin-bottom: 3.5vh;
+}
+
+.icons{
+    margin-bottom: 13vh;
+}
+
+.icons  img:first-child{
+    width: 2.9vw;
+    padding-right: 2%;
+}
+
+.icons img:nth-child(2){
+    width: 2.9vw;
+    padding-right: 2%;
+}
+
+.icons img:nth-child(3){
+    width: 3.5vw;
+    padding-right: 3.5%;
+}
+
+.icons img:nth-child(4){
+    width: 3vw;
+    padding-right: 2%;
+}
+
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 4vh;
+}
+
+.copy p{
+    font-size: 1.1vw;
+}
+
+.right-top{
+    margin-top: 5vh;
+    margin-bottom: 1.7vh;
+}
+
+.right-top, .right-bottom{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-top p, .right-bottom p{
+    font-size: 1.5vw;
+    padding-left: 2vw;
+}
+
+.right-top img, .right-bottom img{
+    width: 10%;
+}
+
+.right-top  img{
+    height: 3%;
+    margin-top: -1.5%;
+}
+
+.right-bottom img{
+    margin-top: 0.3vh;
+    height: 1.4vw;
+}
+/*Bottom hissesin sonu*/
 @media screen and (min-width: 992px) and (max-width: 1279px){
     .card_container{
         width: calc(100% - 144px);
@@ -98,8 +488,97 @@ ul li {
     .info{
         font-size: .9rem;
     }
+/*-------------*/
+    .container{
+        width: calc(100% - 144px);
+        margin: 0 auto;
+    }
+    .course h1{
+    font-size: 60px;
+    }
+    .course p{
+    width: 420px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Roboto;
+    }
+    .right img{
+        width: 250px;
+        height: 250px;
+    }
+    .right{
+        width: 25%;
+    }
+/*------------*/
+    #about-course{
+        min-height: 452px;
+        padding: 7vh  0  12vh  7vw;
+    }
+    
+    #about-course  h3{
+        font-size: 3.6vw;
+    }
+    
+    #container{
+        width: 55%;
+        padding: 3em  4em  3em  4em;
+        border-radius: 2vw;
+        margin-top: 6.2vh;
+        min-width: 458px;
+    }
+    
+    #para p{
+        font-size: 1.2vw;
+    }
+    
+    #image-icon{
+        margin-top: 4vh;
+    }
+    
+    #facebook  h6{
+        font-size: 1.7vw;
+        margin-top: 3.8vh;
+    }
+    
+    #facebook  a{
+        margin-top: 1.2vw;
+    }
+    /*------------*/
+    #about-course{
+        min-height: 452px;
+        padding: 7vh  0  12vh  7vw;
+    }
+    
+    #about-course  h3{
+        font-size: 3.6vw;
+    }
+    
+    #container{
+        width: 55%;
+        padding: 3em  4em  3em  4em;
+        border-radius: 2vw;
+        margin-top: 6.2vh;
+        min-width: 458px;
+    }
+    
+    #para p{
+        font-size: 1.2vw;
+    }
+    
+    #image-icon{
+        margin-top: 4vh;
+    }
+    
+    #facebook  h6{
+        font-size: 1.7vw;
+        margin-top: 3.8vh;
+    }
+    
+    #facebook  a{
+        margin-top: 1.2vw;
+    }
 }
- @media screen and (min-width: 320px) and (max-width: 991px){
+ @media screen and (min-width: 321px) and (max-width: 991px){
         .card_container{
             width: calc(100% - 150px);
             margin: 0 auto;
@@ -123,10 +602,263 @@ ul li {
         .line{
             display: none;
         }
-    } 
-@media screen and (min-width: 1400px) {
-       .line{
-           display: none;
-       }
-} 
-/* Cards End */
+
+/*--------------*/
+        .container{
+            width: calc(100% - 150px);
+            margin: 0 auto;
+        }
+        .course h1{
+            font-size: 65px;
+            font-weight: 900;
+        }
+        .course p{
+            font-family: Roboto;
+            width: 1200px;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 150%;
+            /* or 18px */
+            color: #000000;
+    }
+        .flex-image{
+            display: block;
+        }
+        .right{
+            margin-left: 200px;
+        }
+        .right img{
+            width: 450px;
+            height: 450px;
+        }
+        .left-1{
+            display: none;
+        }
+        .right-1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .text-1 h4{
+            font-size: 45px;
+            width: 350px;
+        }
+        .text-1 p{
+            font-size: 40px;
+            width: 420px;
+        }
+        .text-1{
+            margin-top: 60px;
+        }
+        .format h1{
+            font-size: 65px;
+            font-weight: 900;
+        }
+        .section-format{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+        .text-2 h4{
+            font-size: 45px;
+            width: 380px;
+        }
+        .text-2 p{
+            font-size: 40px;
+            width: 420px;
+        }
+        .ul h1{
+            font-size: 65px;
+            font-weight: 900;
+        }
+        .ul ul li{
+            font-size: 40px;
+            width: 1000px;
+        }
+        #text2{
+            margin-top: 170px;
+        }
+        .ul{
+            margin-top: 160px;
+        }
+/*---------------*/
+#about-course{
+    padding: 7vh  0  9vh  0;
+}
+
+#wrapper{
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-course  h3{
+    position: relative;
+    display: block;
+    width: 68.5%;
+    font-size: 7.5vw;
+    line-height: 100%;
+    margin: 0 auto; 
+    width: 100%;
+}
+
+#container{
+    display: block;
+    width: 100%;
+    padding: 3em  4em  3em  4em;
+    padding: 5vw;
+    border-radius: 2vw;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#para p{
+    font-size: 2.7vw;
+}
+
+#image-icon{
+    margin-top: 3vw;
+    margin-left: 8pt;
+}
+
+#image  img{
+    width: 125%;
+}
+
+#facebook  h6{
+    font-size: 1.4em;
+    margin-top: 2vh;
+}
+
+#facebook  a{
+    margin-top: 2.8vw;
+}
+
+#facebook  img{
+    width: 9%;
+}
+/*-------------*/
+.bottom{
+    padding-bottom: 2.8vh;
+}
+
+
+#black{
+    padding-bottom: 13.5vh;
+}
+
+.end-left{
+    position: relative;
+}
+
+h2{
+    width: 65%;
+    font-size: 6.5vw;
+    line-height: 1em;
+    padding-bottom: 2vh;
+}
+
+.middle  .first  p{
+    font-size: 3vw;
+}
+
+.middle .second p{
+    font-size: 8.2vw;
+    margin-bottom: 2vh;
+}
+
+.bottom{
+    width: 90%;
+}
+
+.bottom  h6{
+    font-size: 3vw;
+}
+
+.bottom  p{
+    font-size: 1.5vw;
+    line-height: 1em;
+}
+
+.left{
+    width: 48%;
+}
+
+.right{
+    width: 48%;
+    margin-left: 6vw;
+}
+
+.left p, .right p{
+    font-size: 2.5vw;
+}
+
+#green{
+    padding-top: 12%;
+    padding-bottom: 14%;
+}
+
+.endd{
+    flex-direction: column;
+}
+
+.logo #first{
+    width: 33%;
+    margin-top: 3.5vh;
+    margin-bottom: 1.6vh;
+}
+
+.copy{
+    position: absolute;
+    margin-top: 19vh;
+    /* margin-top: 21.5vh; */
+}
+
+.copy  p{
+    font-size: 2.6vw;
+}
+
+.icons  img:first-child{
+    width: 5vw;
+    padding-right: 3.5%;
+}
+
+.icons img:nth-child(2){
+    width: 5vw;
+    padding-right: 3.5%;
+}
+
+.icons img:nth-child(3){
+    width: 5.5vw;
+    padding-right: 5%;
+}
+
+.icons img:nth-child(4){
+    width: 5vw;
+    padding-right: 3.5%;
+}
+
+.icons{
+    margin-bottom: 1vh;
+}
+
+.right-top p, .right-bottom p{
+    font-size: 3vw;
+    padding-left: 2vw;
+}
+
+.right-top img, .right-bottom img{
+    width: 4%;
+}
+
+.right-top  img{
+    height: 3%;
+    margin-top: -0.5%;
+}
+
+.right-bottom img{
+    margin-top: 0.5vh;
+    height: 2vw;
+}
+ }
