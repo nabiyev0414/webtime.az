@@ -272,6 +272,10 @@ ul li {
 .flex-image{
     display: flex;
 }
+.left{
+    width: 50%;
+}
+.right,
 .leftone{
     width: 50%;
 }
@@ -280,6 +284,7 @@ ul li {
     display: flex;
     justify-content: flex-end;
 }
+.right img,
 .rightone img{
     width: 314px;
     height: 315px;
