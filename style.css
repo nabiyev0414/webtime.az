@@ -3,7 +3,6 @@
     margin: 0;
     padding:0; 
     box-sizing: border-box;
-    font-size: 16px;
 }
 /*Header*/
 .container{
@@ -94,6 +93,7 @@
     line-height: 101.38%;
     /* or 81px */
     color: #000000;
+    margin-top: 70px;
 }
 .section1-p{
     position: absolute;
@@ -108,6 +108,7 @@
     line-height: 150%;
     /* or 30px */
     color: #000000;
+    margin-top: 30px;
 }
 .justify-between{
     display: flex;
@@ -129,33 +130,41 @@
     background: #1E4681;
     border-radius: 5px;
 }
-.blue-box-p{
+.blue-box-p p{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 28px;
     line-height: 130%;
     /* or 32px */
     color: #FFFFFF;
+    margin-top: 10px;
 
+}
+.blue-box-p{
     margin-left: 25px;
 }
-.blue-box-span{
+.blue-box-span span{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
     /* or 26px */
+    color: #FFFFFF;   
+}
+.blue-box-span{
     text-align: right;
-    color: #FFFFFF;
-
-    margin-right: 25px;
+    margin-top: 7px;
+    margin-right: 20px;
 }
 .w-50
 {
     width: 50%;
 }
+
+
+
 /* Cards Baslangic */
 .card_container{
     width: calc(100% - 244px);
@@ -168,6 +177,7 @@
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
     /* padding-bottom: 10vw; */
+    margin-top: 210px;
 }
 .card_info{
     padding-left: 1rem;
@@ -227,7 +237,7 @@ ul li {
     font-weight: bold;
     font-size: 5.5rem;
     line-height: 101.38%;
-    margin: 94px 0 0 5%;
+    margin: 94px 0 0 0;
 }
 .card_img{
   width: 100%;
@@ -255,7 +265,7 @@ ul li {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 55px;
     line-height: 101.38%;
     /* or 56px */
     color: #000000;
@@ -264,10 +274,17 @@ ul li {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 150%;
     /* or 36px */
     color: #000000;
+}
+.leftone{
+    margin-top: 50px;
+    width: 52%;
+}
+.pp-1{
+    margin-top: 40px;
 }
 .flex-image{
     display: flex;
@@ -275,12 +292,12 @@ ul li {
 .left{
     width: 50%;
 }
-.right,
-.leftone{
+.right
+{
     width: 50%;
 }
 .rightone{
-    width: 50%;
+    width: 48%;
     display: flex;
     justify-content: flex-end;
 }
@@ -344,6 +361,7 @@ ul li {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    margin-top: 130px;
 }
 .text-2 h4{
     width: 250px;
@@ -376,6 +394,9 @@ ul li {
     /* or 56px */
     color: #000000;
     margin-top: 200px;
+}
+.ul ul{
+    margin-top: 60px;
 }
 .ul ul li{
     width: 660px;
@@ -656,7 +677,6 @@ h2{
     font-size: 60px;
     }
     .course p{
-    width: 420px;
     font-weight: 400;
     font-size: 20px;
     font-family: Roboto;
@@ -876,6 +896,157 @@ h2{
             margin-right: 20px;
         }
 }
+@media screen and (min-width: 321px) and (max-width: 600px){
+    .container{
+        width: calc(100% - 100px) !important;
+        margin: 0 auto;
+    }
+    .course h1{
+        font-size: 26px;
+        
+    }
+    .course p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        /* or 18px */
+        color: #000000;
+}
+/* .course{
+    overflow: hidden;
+} */
+    .flex-image{
+        display: block;
+
+    }
+   .leftone{
+       width: 100%;
+       margin-top: 20px;
+   }
+   .rightone{
+       width: 100%;
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+      
+}
+.rightone img{
+    width: 170px;
+    height: 160px;
+    margin-top: 30px;
+ 
+}
+.pp-1{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+    .left-1{
+        display: none;
+    }
+    .right-1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .text-1 h4{
+        font-size: 45px;
+        width: 350px;
+    }
+    .text-1 p{
+        font-size: 40px;
+        width: 420px;
+    }
+    .text-1{
+        margin-top: 60px;
+    }
+    .format h1{
+        font-size: 65px;
+        font-weight: 900;
+    }
+    .section-format{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .text-2 h4{
+        font-size: 45px;
+        width: 380px;
+    }
+    .text-2 p{
+        font-size: 40px;
+        width: 420px;
+    }
+    .ul h1{
+        font-size: 65px;
+        font-weight: 900;
+    }
+    .ul ul li{
+        font-size: 40px;
+        width: 1000px;
+    }
+    #text2{
+        margin-top: 170px;
+    }
+    .ul{
+        margin-top: 160px;
+    }
+
+
+
+
+}
+    @media screen and (min-width: 601px) and (max-width: 991px){
+        .container{
+            width: calc(100% - 100px) !important;
+            margin: 0 auto;
+        }
+        .course h1{
+            font-size: 29px;       
+        }
+        .course p{
+            font-size: 18px;
+    }
+    /* .course{
+        overflow: hidden;
+    } */
+        .flex-image{
+            display: block;
+    
+        }
+       .leftone{
+           width: 100%;
+           margin-top: 20px;
+       }
+       .rightone{
+           width: 100%;
+           display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+          
+    }
+    .rightone img{
+        width: 190px;
+        height: 190px;
+        margin-top: 30px;
+     
+    }
+    .pp-1{
+        margin-top: 20px;
+    }
+
+
+
+}
+
  @media screen and (min-width: 321px) and (max-width: 991px){
         .card_container{
             width: calc(100% - 150px);
@@ -906,79 +1077,7 @@ h2{
             width: calc(100% - 150px);
             margin: 0 auto;
         }
-        .course h1{
-            font-size: 65px;
-            font-weight: 900;
-        }
-        .course p{
-            font-family: Roboto;
-            width: 1200px;
-            font-weight: 400;
-            font-size: 40px;
-            line-height: 150%;
-            /* or 18px */
-            color: #000000;
-    }
-        .flex-image{
-            display: block;
-        }
-        .right{
-            margin-left: 200px;
-        }
-        .right img{
-            width: 450px;
-            height: 450px;
-        }
-        .left-1{
-            display: none;
-        }
-        .right-1{
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-        .text-1 h4{
-            font-size: 45px;
-            width: 350px;
-        }
-        .text-1 p{
-            font-size: 40px;
-            width: 420px;
-        }
-        .text-1{
-            margin-top: 60px;
-        }
-        .format h1{
-            font-size: 65px;
-            font-weight: 900;
-        }
-        .section-format{
-            display: flex;
-            flex-direction: column;
-            width: 80%;
-        }
-        .text-2 h4{
-            font-size: 45px;
-            width: 380px;
-        }
-        .text-2 p{
-            font-size: 40px;
-            width: 420px;
-        }
-        .ul h1{
-            font-size: 65px;
-            font-weight: 900;
-        }
-        .ul ul li{
-            font-size: 40px;
-            width: 1000px;
-        }
-        #text2{
-            margin-top: 170px;
-        }
-        .ul{
-            margin-top: 160px;
-        }
+ 
 /*---------------*/
 #about-course{
     padding: 7vh  0  9vh  0;
