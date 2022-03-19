@@ -41,7 +41,7 @@
 }
 .glob{
     position: absolute;
-    /* width: 130px; T*/
+    width: 130px; 
     height: 32px;
     left: 151px;
     top: 187px;
@@ -167,7 +167,7 @@
     height: auto;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
-    padding-bottom: 10vw;
+    /* padding-bottom: 10vw; */
 }
 .card_info{
     padding-left: 1rem;
@@ -302,7 +302,7 @@ ul li {
 }
 .right-1{
     display: flex;
-   /* margin-left: 132px; */
+   margin-left: 132px;
    width: 70%;
    justify-content: space-between;
 }
