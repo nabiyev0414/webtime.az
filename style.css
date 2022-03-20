@@ -384,6 +384,9 @@ ul li {
     color: #000000;
     margin-top: 10px;
 }
+.ul{
+    margin-top: 200px;
+}
 .ul h1{
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -392,13 +395,11 @@ ul li {
     line-height: 101.38%;
     /* or 56px */
     color: #000000;
-    margin-top: 200px;
 }
 .ul ul{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .ul ul li{
-    width: 660px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -894,7 +895,41 @@ h2{
             color: #FFFFFF;
             margin-right: 20px;
         }
+        .format h1{
+            font-size: 32px;
+        }
+
+
+        .section-format{
+            width: 70%;
+            margin-top: 90px;
+        }
+        .text-2 h4{
+            font-size: 15px;
+        }
+        .text-2 p{
+            font-size: 11px;
+        }
+
+
+        .ul h1{
+            font-size: 32px;
+        }   
+         .ul ul li{
+            font-size: 14px;
+            margin-top: 0;
+        } 
+        .ul{
+            margin-top: 80px;
+        }
+        .ul ul{
+            width: 60%;
+        }
 }
+
+
+
+
 @media screen and (min-width: 321px) and (max-width: 600px){
     .container{
         width: calc(100% - 100px) !important;
@@ -966,14 +1001,6 @@ h2{
     }
 
 
-
-
-
-
-
-
-
-
     .format{
         margin-top: 80px;
     }
@@ -988,6 +1015,7 @@ h2{
     }
     .text-2{
         margin-top: 30px;
+        margin-left: 0;
 
     }
     .text-2 h4{
@@ -996,20 +1024,19 @@ h2{
     }
     .text-2 p{
         font-size: 10px;
-        width: 420px;
+        width: 100%;
     }
     .ul h1{
-        font-size: 65px;
-        font-weight: 900;
+        font-size: 26px;
     }   
-    .ul ul li{
-        font-size: 40px;
-        width: 1000px;
+     .ul ul li{
+        font-size: 12px;
+        margin-top: 0;
+    } 
+    .ul{
+        margin-top: 80px;
     }
 
-    .ul{
-        margin-top: 160px;
-    }
 
 
 
@@ -1072,6 +1099,46 @@ h2{
     .text-1 p{
         font-size: 11px;
     }
+
+
+
+    .format{
+        margin-top: 80px;
+    }
+    .format h1{
+        font-size: 26px;
+    }
+    .section-format{
+        display: flex;
+        flex-direction: column;
+        width: 50% !important;
+        margin-top: 10px;
+    }
+    .text-2{
+        margin-top: 30px;
+        margin-left: 0;
+
+    }
+    .text-2 h4{
+        font-size: 12px;
+        width: 380px;
+    }
+    .text-2 p{
+        font-size: 10px;
+        width: 60%;
+    }
+
+    .ul h1{
+        font-size: 28px;
+    }   
+     .ul ul li{
+        font-size: 14px;
+        margin-top: 0;
+    } 
+    .ul{
+        margin-top: 80px;
+    }
+
 
 
 
