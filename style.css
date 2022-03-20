@@ -3,6 +3,7 @@
     margin: 0;
     padding:0; 
     box-sizing: border-box;
+   
 }
 /*Header*/
 .container{
@@ -114,13 +115,12 @@
     display: flex;
     justify-content: space-between;
 }
-.img-noroot{
-    position: absolute;
-    width: 304px;
-    height: 356px;
-    left: 890px;
-    top: 223px;
-}
+/* .img-noroot{
+    width: 300px;
+    height: 350px;
+    margin-top: 220px;
+    margin-left: 100px;
+} */
 .blue-box{
     position: absolute;
     width: 483.63px;
@@ -417,6 +417,7 @@ ul li {
 }
 
 #about-course{
+    margin-top: 100px;
     font-size: 10px;
     background-color: #EFEFEF;
     padding: 7em  0em  11em  13em;
@@ -688,6 +689,9 @@ h2{
     .right{
         width: 25%;
     }
+    .text-1{
+        margin-left: 35px;
+    }
 /*------------*/
     #about-course{
         min-height: 452px;
@@ -835,7 +839,7 @@ h2{
             width: 363.72px;
             height: 110.04px;
             left: 70.66px;
-            top: 110px;
+            top: 80px;
             font-family: 'Roboto Slab';
             font-style: normal;
             font-weight: 700;
@@ -850,6 +854,7 @@ h2{
             left: 515.46px;
             top: 138.99px;
         }
+
         .section1-p{
             position: absolute;
             width: 264px;
@@ -869,12 +874,13 @@ h2{
             position: absolute;
             width: 280.11px;
             height: 115.83px;
-            left: 237.1px;
-            top: 395.92px;
+            left: 277.1px; 
+            top: 395.92px; 
             background: #1E4681;
             border-radius: 2.89583px;
         }
-        .blue-box-p{
+     
+        .blue-box-p p{
             font-family: 'Roboto Slab';
             font-style: normal;
             font-weight: 400;
@@ -882,9 +888,9 @@ h2{
             line-height: 130%;
             /* or 18px */
             color: #FFFFFF;
-            margin-left: 20px;
+            margin-right: 35px;
         }
-        .blue-box-span{
+        .blue-box-span span{
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -893,7 +899,7 @@ h2{
             /* or 16px */
             text-align: right;
             color: #FFFFFF;
-            margin-right: 20px;
+            
         }
         .format h1{
             font-size: 32px;
@@ -977,7 +983,7 @@ h2{
 }
 
     .section{
-        margin-top: 60px;
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -986,8 +992,10 @@ h2{
         display: none;
     }
     .right-1{
-
-        margin-left: 0;    
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;   
+        justify-content: space-between; 
     }
     .text-1 h4{
         font-size: 12px;
@@ -996,17 +1004,17 @@ h2{
         font-size: 10px;
     }
     .text-1{
-        margin-top: 0;
-        width: 30%;
+        margin-top: 20px;
+        width: 40%;
     }
+
+
 
 
     .format{
         margin-top: 80px;
     }
-    .format h1{
-        font-size: 26px;
-    }
+ 
     .section-format{
         display: flex;
         flex-direction: column;
@@ -1019,11 +1027,11 @@ h2{
 
     }
     .text-2 h4{
-        font-size: 12px;
+        font-size: 16px;
         width: 380px;
     }
     .text-2 p{
-        font-size: 10px;
+        font-size: 12px;
         width: 100%;
     }
     .ul h1{
@@ -1036,6 +1044,15 @@ h2{
     .ul{
         margin-top: 80px;
     }
+
+
+    /* li.card{
+        width: 40%;
+        height: 150px;
+        margin: 3%;
+    } */
+
+
 
 
 
@@ -1089,9 +1106,12 @@ h2{
     .text-1{
         margin-top: 40px;
         width: 40%;
+        margin-left: 30px;
     }
     .right-1{
-        margin-left: 0;
+        margin-left: 50px;
+        float: right;
+        justify-content: space-between;
     }
     .text-1 h4{
         font-size: 15px;
@@ -1120,11 +1140,11 @@ h2{
 
     }
     .text-2 h4{
-        font-size: 12px;
+        font-size: 16px;
         width: 380px;
     }
     .text-2 p{
-        font-size: 10px;
+        font-size: 13px;
         width: 60%;
     }
 
@@ -1140,6 +1160,15 @@ h2{
     }
 
 
+    /* li.card{
+        width: 30%;
+        height: 170px;
+    } */
+
+ 
+
+
+
 
 
 }
@@ -1153,11 +1182,12 @@ h2{
             width: 75%;
             height: auto;
         }
+
         .card_title{
             font-size: .9rem;
         }
-        .section_title{
-            font-size: 1.5rem;
+        .section_title h2{
+            font-size: 28px;
         }
         .info{
             font-size: .7rem;
@@ -1168,6 +1198,11 @@ h2{
         .line{
             display: none;
         }
+        .card-list{
+            margin-top: 50px;
+            justify-content: flex-start;
+        }
+
 
 /*--------------*/
         .container{
@@ -1462,8 +1497,9 @@ h2{
         position: absolute;
         width: 141.66px;
         height: 165.89px;
-        left: 201px;
+        left: 150px;
         top: 254px;
+        margin-right: 50px;
     }
 
     .blue-box{
@@ -1495,5 +1531,10 @@ h2{
         text-align: right;
         color: #FFFFFF;
         margin-right: 20px;
+    }
+
+
+    .course h1, .format h1, .ul h1{
+        font-size: 7.5vw;
     }
  }
